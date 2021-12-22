@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=fo, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="márgenes" class= "gridFormasDeTrabajo">
+    <header>
+        <h1 class="titulos">Santa María Goretti</h1>
+        <nav id="fondo5">
+        <ul>
+            <li>
+                <a href="../index.html">Volver al inicio</a>
+            </li>
+           <li>
+            <a href="/paginas/formasdetrabajo.html">Formas de trabajo</a>
+           </li>
+           <li>
+              <a href="cursos.html">Cursos</a>
+           </li>
+           <li>
+              <a href="Administración.html">Horarios de atención</a>
+           </li>
+           <li>
+              <a href="redes.html">Contactos</a>
+           </li>
+           <li>
+              <a target="_blank" href="https://smgoretti-infd.mendoza.edu.ar/sitio/historia/">Historia</a>
+           </li>
+           <li>
+              <a href="formulario.html">Registrate</a>
+           </li>
+           <li>
+            <a href="paginas/galería.html">Imágenes</a>
+         </li>
+         
+           
+        </ul>
+        </nav>
+     </header>
+<form class= "form" method="post">
+    <div>Género</div>
+    <div>hombre</div>
+   <input type="radio" name="sexo" value="hombre">
+   <div>mujer</div>
+    <input type="radio" name="sexo" value="mujer">
+    <div>indefinido</div>
+    <input type="radio" name="sexo" value="indefinido">
+</form>
+<form method="post">
+    <label for="nombre_apellido"> Nombre:</label>
+    <input type="text" required>
+
+    <label for="edad">Edad:</label>
+    <input type="number" required>
+
+    <label for="email">Email:</label>
+    <input type="email" required>
+
+    <label for="password">Contraseña:</label>
+    <input type="password" required>
+
+</form>  
+<form method="post">
+        <select name="Localidad">
+            <option value="Luján de Cuyo">Luján de Cuyo</option>
+            <option value="Godoy Cruz">Godoy Cruz</option>
+            <option value="Maipú">Maipú</option>
+            <option value="Ciudad">Ciudad</option>
+            <option value="Otro">Otro</option>
+        </select>
+   
+
+    <input type="date" required>
+    <input type="time">   
+    <input type= "reset" value="Limpiar formulario">
+    <input type="submit">
+  
+</form>
+
+</body>
+</html>
